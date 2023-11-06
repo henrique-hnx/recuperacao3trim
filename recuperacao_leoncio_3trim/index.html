@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECUPERAÇÃO FRONT-END</title>
+</head>
+<body>
+    <h1 class="titulo">INTERESSADOS NO CAMPEONATO DE BASQUETE 3X3</h1>
+    <!--botão que chama uma função quando é clicado-->
+    <h2>Todo atleta também precisa exercitar o cerebro</h2>
+    <input type = "number" id = "idade" placeholder="Idade">
+    <button class="botao" type="button" onclick="InscreverEstudante()"> Inscrever-se</button>
+
+    <!--resultados-->
+    <p class="interessados">interessados: </p>
+    <h2>interessados na classe A (16-17 anos):<span id="classeAcontador">0</span></h2>
+    <p>Equipes na classe A:<span id = "equipesClasseA">0</span></p>
+
+    <h2>interessados na classe B (14-15 anos):<span id="classeBcontador">0</span></h2>
+    <p>Equipes na classe B:<span id = "equipesClasseB">0</span></p>
+
+    <p id="alerta" style="color: red;"></p>
+</body>
+<script src="calculo.js"></script>
+</html>
